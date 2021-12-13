@@ -1,15 +1,7 @@
-# TamperMonkeyUserscripts
-Userscripts written for myself that others may find useful
-
-Repo Desc: Collection of various userscripts for TamperMonkey, GreaseMonkey, ViolentMonkey, etc
-
-
-
-
-
-
 # TamperMonkeyUserScripts
 A collection of various userscripts for TamperMonkey. *(They should also work unmodified with GreaseMonkey, ViolentMonkey, etc.)*
+
+With over 10M installs, TamperMonkey is arguaably the most popular non-ad-blocking browser extension in history. The only extensions that equal its popularity are the anti-virus and ad-blocking extensions. TamperMonkey is a browser extension that runs user-created javascript code ("userscripts") on the web pages for which the userscripts were designed. Read more about userscripts [here](https://simply-how.com/enhance-and-fine-tune-any-web-page-the-complete-user-scripts-guide).
 
 ## Installation:
 
@@ -27,7 +19,7 @@ When TamperMonkey scripts are installed, the target webpages are immediately ref
 
 https://www.w3schools.com/cssref/css_colors.asp
 
-The original page displays three color blocks on each line, and a maximum of 21 per page (only 12 on the first page).
+A primary go-to reference page for anyone working with colors in CSS. The original page displays three color blocks on each line, and a maximum of 21 per page (only 12 on the first page).
 
 This script removes some page elements (such as the right-sidebar etc) and adds the following buttons to top-left of page:
 
@@ -66,3 +58,8 @@ For Mike Adams' viral "Health Ranger Report": https://www.brighteon.com/channels
 
 The default page layout shows around 18 video titles per page and you need to scroll a few times to see all the videos. The goal here, as always, is to see as much on the first screen as possible.  This was accomplished by moving the descriptions on top of the thumbnail images and tinkering with transparency/colors to make it look great. Now, on most larger monitors (1920x1080) you should see all the videos for that page on the screen, without any need to scroll.
 
+## Improve TheGatewayPundit news site
+
+TheGatewayPundit is the new DrudgeReport. From obscurity, it has rocketed up to become possibly the most popular news website of 2021. Its clean, minimalist appearance and facts-only reporting have won several tens of millions of daily readers (compare that to CNN/MSNBC/CBC/BBC barely 2 million daily visits). Only Brietbart, EpochTimes, ThePostMillenial even come close. Why has this happened? Accuracy.
+
+As usual, the goal is "more matter with less art". The original site design displays 3 articles on the first screen, with this script you see 21 on the first screen (on a standard 1920x1080 monitor).
