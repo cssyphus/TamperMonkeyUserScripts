@@ -1,7 +1,7 @@
 # TamperMonkeyUserScripts
 A collection of various userscripts for TamperMonkey. *(They should also work unmodified with GreaseMonkey, ViolentMonkey, etc.)*
 
-With over 10M installs, TamperMonkey is arguaably the most popular non-ad-blocking browser extension in history. The only extensions that equal its popularity are the anti-virus and ad-blocking extensions. TamperMonkey is a browser extension that runs user-created javascript code ("userscripts") on the web pages for which the userscripts were designed. Read more about userscripts [here](https://simply-how.com/enhance-and-fine-tune-any-web-page-the-complete-user-scripts-guide).
+With over 10M installs, TamperMonkey is arguably the most popular non-ad-blocking browser extension in history. The only extensions that equal its popularity are the anti-virus and ad-blocking extensions. TamperMonkey is a browser extension that runs user-created javascript code ("userscripts") on the web pages for which the userscripts were designed. Read more about userscripts [here](https://simply-how.com/enhance-and-fine-tune-any-web-page-the-complete-user-scripts-guide).
 
 ## Installation:
 
