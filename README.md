@@ -3,6 +3,8 @@ A collection of various userscripts for TamperMonkey. *(They should also work un
 
 With over 10M installs, TamperMonkey is arguably the most popular non-ad-blocking browser extension in history. The only extensions that equal its popularity are the anti-virus and ad-blocking extensions. TamperMonkey is a browser extension that runs user-created javascript code ("userscripts") on the web pages for which the userscripts were designed. Read more about userscripts [here](https://simply-how.com/enhance-and-fine-tune-any-web-page-the-complete-user-scripts-guide).
 
+These scripts are not designed to be ad blockers. The author uses Raymond Hill's super-popular, super-efficient [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) extension, which takes care of the ads. These scripts tidy up what's left.
+
 ## Installation:
 
 See [this StackOverflow article](https://stackoverflow.com/a/53161629/1447509) for how to use/install TamperMonkey userscripts.
@@ -40,7 +42,7 @@ Removes the need to press the MORE button to load new results. The script presse
 
 ## Improve TheWeatherNetwork - weather page for your area
 
-Provides a clean-page experience - Hides almost everything except the weather panel. If you are still getting ads, install Raymond Hill's [UBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) extension in your browser (ten million users are probably not wrong...).
+Provides a clean-page experience - Hides almost everything except the weather panel. If you are still getting ads, install Raymond Hill's [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) extension in your browser (ten million users are probably not wrong...).
 
 ## Improve Purolator's Shipping Tracker
 
@@ -62,4 +64,4 @@ The default page layout shows around 18 video titles per page and you need to sc
 
 TheGatewayPundit is the new DrudgeReport. From obscurity, it has rocketed up to become possibly the most popular news website of 2021. Its clean, minimalist appearance and facts-only reporting have won several tens of millions of daily readers (compare that to CNN/MSNBC/CBC/BBC barely 2 million daily visits). Only Brietbart, EpochTimes, ThePostMillenial even come close. Why has this happened? Accuracy.
 
-As usual, the goal is "more matter with less art". The original site design displays 3 articles on the first screen, with this script you see 21 on the first screen (on a standard 1920x1080 monitor).
+As usual, the goal is "more matter with less art". The original site design displays 3 article summaries on the first screen; with this script you see 21 on the first screen (on a standard 1920x1080 monitor).
