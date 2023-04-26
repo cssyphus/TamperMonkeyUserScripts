@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         Endless DuckDuckGo
-// @namespace    https://github.com/cssyphus/TamperMonkeyUserscripts/
-// @match        https://duckduckgo.com/?q=*
+// @namespace    http://tampermonkey.net/
+// @version      0.2
+// @match        https://duckduckgo.com/?*
 // @grant        none
 // ==/UserScript==
 
