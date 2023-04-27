@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         YouTube - show/hide Channel Videos
 // @namespace    http://cssyphus.com
-// @version      0.1
-// @match        https://www.youtube.com/@techtutorialsforauthors/videos
+// @version      0.11
+// @match        https://www.youtube.com/@*/videos
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        none
 // ==/UserScript==
