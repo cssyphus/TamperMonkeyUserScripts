@@ -48,11 +48,15 @@ Provides a clean-page experience - Hides almost everything except the weather pa
 
 Cleans up the Purolator Tracker screen by hiding unnecessary labels/titles/icons. The result is that you see more important stuff, right up at the top of the page.
 
-## Steve Bannon's WarRoom on Rumble
+## Improve TheGatewayPundit news site
 
-For Steve Bannon's WarRoomPandemic episodes archive: https://rumble.com/c/BannonsWarRoom
+TheGatewayPundit is the new DrudgeReport. From obscurity, it has rocketed up to become possibly the most popular news website of 2021. Its clean, minimalist appearance and facts-only reporting have won several tens of millions of daily readers (compare that to CNN/MSNBC/CBC/BBC barely 2 million daily visits). Only Brietbart, EpochTimes, ThePostMillenial even come close. Why has this happened? Accuracy.
 
-Cleans up the page (hides the huge identity banner that takes up 25% of the top of the screen). It also allows you to toggle between seeing only full episodes, or seeing everything.
+As usual, the goal is "more matter with less art". The original site design displays 3 article summaries on the first screen; with this script you see 21 on the first screen (on a standard 1920x1080 monitor).
+
+## Improve Zerohedge news site
+
+Zerohedge is one of the most read finance blogs. In keeping up with zero-day news that affects the finance world, Zerohedage has become one of the most important geopolitical tracking sites in the world. Its meteoric rise over the past five years testifies to its ability to analyse and accurately predict geopolitical events - whether the reader is interested in the financial side or not.
 
 ## Brighteon NEW-VIDEOS and HEALTH RANGER REPORT
 
@@ -60,8 +64,8 @@ For Mike Adams' viral "Health Ranger Report": https://www.brighteon.com/channels
 
 The default page layout shows around 18 video titles per page and you need to scroll a few times to see all the videos. The goal here, as always, is to see as much on the first screen as possible.  This was accomplished by moving the descriptions on top of the thumbnail images and tinkering with transparency/colors to make it look great. Now, on most larger monitors (1920x1080) you should see all the videos for that page on the screen, without any need to scroll.
 
-## Improve TheGatewayPundit news site
+## Steve Bannon's WarRoom on Rumble - Not Working Correctly after Rumble changes
 
-TheGatewayPundit is the new DrudgeReport. From obscurity, it has rocketed up to become possibly the most popular news website of 2021. Its clean, minimalist appearance and facts-only reporting have won several tens of millions of daily readers (compare that to CNN/MSNBC/CBC/BBC barely 2 million daily visits). Only Brietbart, EpochTimes, ThePostMillenial even come close. Why has this happened? Accuracy.
+For Steve Bannon's WarRoomPandemic episodes archive: https://rumble.com/c/BannonsWarRoom
 
-As usual, the goal is "more matter with less art". The original site design displays 3 article summaries on the first screen; with this script you see 21 on the first screen (on a standard 1920x1080 monitor).
+Cleans up the page (hides the huge identity banner that takes up 25% of the top of the screen). It also allows you to toggle between seeing only full episodes, or seeing everything.
