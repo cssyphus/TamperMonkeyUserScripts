@@ -69,3 +69,7 @@ The default page layout shows around 18 video titles per page and you need to sc
 For Steve Bannon's WarRoomPandemic episodes archive: https://rumble.com/c/BannonsWarRoom
 
 Cleans up the page (hides the huge identity banner that takes up 25% of the top of the screen). It also allows you to toggle between seeing only full episodes, or seeing everything.
+
+## Simple Machines Forums - Add Activation button
+
+For admins of SMF web forums. This script will create an "Activations" button on the Registration and Members pages so you can easily manually activate new users, without requiring them to respond to an activations email. Sometimes it is important for the admin to be able to fully control the activations process.
