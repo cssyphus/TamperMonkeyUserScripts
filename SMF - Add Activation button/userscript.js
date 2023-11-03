@@ -1,12 +1,16 @@
 // ==UserScript==
-// @name         bbs.stopsogi.org Registration
+// @name         SMF Add Activation Button to Registration and Members areas
 // @namespace    http://cssyphus.com
 // @version      231101.0930
-// @match        https://bbs.stopsogi.org/index.php?action=admin;area=regcente*
-// @match        https://bbs.stopsogi.org/index.php?action=admin;area=viewmember*
+// @match        https://YOUR_DOMAIN_HERE/index.php?action=admin;area=regcente*
+// @match        https://YOUR_DOMAIN_HERE/index.php?action=admin;area=viewmember*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=stopsogi.org
 // @grant        none
 // ==/UserScript==
+
+/*
+    IMPORTANT!  YOU MUST CHANGE THE URL FOR THE DOMAIN ON LINES 5, 6 and 37
+*/
 
 (async function () {
   "use strict";
@@ -30,7 +34,7 @@
     newATag.textContent = "Activations";
     newATag.setAttribute(
       "href",
-      "https://bbs.stopsogi.org/index.php?action=admin;area=viewmembers;sa=browse;type=approve"
+      "https://YOUR_DOMAIN_HERE/index.php?action=admin;area=viewmembers;sa=browse;type=approve"
     );
     newLI.appendChild(newATag);
     btnRow.appendChild(newLI);
