@@ -12,7 +12,7 @@
 
 
 2. In your javascript code, add the two functions from the js_code_to_add.js file.
-    * I presume you already know about wrapping your javascript code in a DOMContentLoaded event, such as:
+   * I presume you already know about wrapping your javascript code in a DOMContentLoaded event, such as:
 
 ```
     document.addEventListener('DOMContentLoaded',() => {
@@ -23,11 +23,8 @@ Or, in the jQuery world this same concept is:
 
 `     $(document).ready(function (){ //all your code goes in here });`
 
-or just:
 
-`     $(function(){ //all your code goes in here });`
-
-   * Also, inside the above DOMContentLoaded/document.ready block, you must initialize the tooltip code on the element you want the tooltip used on:
+   * SO, inside the above DOMContentLoaded/document.ready block, you must initialize the tooltip code on the element you want the tooltip used on:
 
 ```
    document.addEventListener('DOMContentLoaded',() => {
