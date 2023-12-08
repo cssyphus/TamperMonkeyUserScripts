@@ -30,6 +30,6 @@ or just:
      document.querySelector('#myTestSpan').addEventListener('mouseout', cancelMyTooltip);
 ```
 
-3. Ensure the CSS code is added to your document. If you need help with this step, you should watch [this[(https://www.youtube.com/watch?v=hu-q2zYwEYs&list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)] or [this[(https://www.youtube.com/watch?v=BvJYXl2ywUE&list=PLZlA0Gpn_vH8BoXcpCUvdmdPZFuR5y2lV&index=1&t=0s)] or [this[(https://www.youtube.com/watch?v=qz0aGYrrlhU)]
+3. Ensure the CSS code is added to your document. If you need help with this step, you should watch [this](https://www.youtube.com/watch?v=hu-q2zYwEYs&list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G) or [this](https://www.youtube.com/watch?v=BvJYXl2ywUE&list=PLZlA0Gpn_vH8BoXcpCUvdmdPZFuR5y2lV&index=1&t=0s) or [this](https://www.youtube.com/watch?v=qz0aGYrrlhU)
 
 4. You are done. High-five the coffee machine.
