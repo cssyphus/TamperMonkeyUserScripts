@@ -3,8 +3,9 @@
 ( Note: If you are using React, Angular, Vue, Svelte, Ruby, etc - consult [Zoltan's primary github repo](https://github.com/zoltantothcom/vanilla-js-tooltip) )
 
 
-1. In your HTML, you have an element with an HTML tooltip that you wish to style more professionally.
-    * Ensure that the element has both an ID and a title (the title will be turned into the tooltip text)
+### In your HTML, you have an element with an HTML tooltip that you wish to style more professionally.
+
+1. Ensure that the element has both an ID and a title (the title will be turned into the tooltip text)
 
 
 `<span id="myTestSpan" title="I have a really long title that I wish to format more nicely">I gotta tooltip on me</span>`
@@ -18,12 +19,15 @@
         // all your code goes inside here
     });
 ```
-This same concept in the jQuery world is:
-     `$(document).ready(function (){ //all your code goes in here });`
-or just:
-     `$(function(){ //all your code goes in here });`
+Or, in the jQuery world this same concept is:
 
-   * Also, inside the above DOMContentLoaded/document.ready block, you need to initialize the tooltip code on the element you want the tooltip used on:
+`     $(document).ready(function (){ //all your code goes in here });`
+
+or just:
+
+`     $(function(){ //all your code goes in here });`
+
+   * Also, inside the above DOMContentLoaded/document.ready block, you must initialize the tooltip code on the element you want the tooltip used on:
 
 ```
      document.querySelector('#myTestSpan').addEventListener('mouseover', createMyTooltip);
