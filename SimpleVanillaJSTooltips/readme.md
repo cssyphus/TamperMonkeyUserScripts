@@ -1,4 +1,4 @@
-## Vanilla JavaScript Tooltips - for inclusion in TamperMonkey scripts
+## SIMPLE Vanilla JavaScript Tooltips - for inclusion in TamperMonkey scripts
 
 So you want tooltips, but you shouldn't need to install popper/tippy, Bootstrap or jQueryUI just to get them. It should be easier than that, right?
 
