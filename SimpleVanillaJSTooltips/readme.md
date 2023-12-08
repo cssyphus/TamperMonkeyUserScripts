@@ -12,4 +12,4 @@ Here are:
 
 Tah... DAH!
 
-This is a much stripped-down version of [vanilla-js-tooltip from Zoltan Toth](https://github.com/zoltantothcom/vanilla-js-tooltip).
+This is a much stripped-down implementation of [vanilla-js-tooltip from Zoltan Toth](https://github.com/zoltantothcom/vanilla-js-tooltip).
