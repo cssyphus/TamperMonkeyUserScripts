@@ -16,13 +16,14 @@
 ```
     document.addEventListener('DOMContentLoaded',() => {
         // all your code goes inside here
-        // This same concept in the jQuery world is:
-        //    $(document).ready(function (){ //all your code goes in here });
-        //    or just: $(function(){ //all your code goes in here });
     });
 ```
+This same concept in the jQuery world is:
+     `$(document).ready(function (){ //all your code goes in here });`
+or just:
+     `$(function(){ //all your code goes in here });`
 
-    * Also, inside the above DOMContentLoaded/document.ready block, you need to initialize the tooltip code on the element you want the tooltip used on:
+   * Also, inside the above DOMContentLoaded/document.ready block, you need to initialize the tooltip code on the element you want the tooltip used on:
 
 ```
      document.querySelector('#myTestSpan').addEventListener('mouseover', createMyTooltip);
