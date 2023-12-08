@@ -1,11 +1,11 @@
 function createMyTooltip(el) {
-  let title = this.title;
+  let mytitle = this.title;
   this.title = "";
-  this.setAttribute("mytooltip", title);
+  this.setAttribute("mytooltip", mytitle);
 
   let tooltipWrap = document.createElement("div"); //creates div
   tooltipWrap.className = "mytooltip"; //adds class
-  tooltipWrap.appendChild(document.createTextNode(title)); //add the text node to the newly created div.
+  tooltipWrap.appendChild(document.createTextNode(mytitle)); //add the text node to the newly created div.
 
   let firstChild = document.body.firstChild; //gets the first elem after body
   firstChild.parentNode.insertBefore(tooltipWrap, firstChild); //adds tt before elem
@@ -22,8 +22,8 @@ function createMyTooltip(el) {
 }
 
 function cancelMyTooltip() {
-  let title = this.getAttribute("tooltip");
-  this.title = title;
+  let mytitle = this.getAttribute("mytooltip");
+  this.title = mytitle;
   this.removeAttribute("mytooltip");
   document.querySelector(".mytooltip").remove();
 }
