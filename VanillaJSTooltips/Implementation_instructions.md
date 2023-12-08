@@ -13,16 +13,20 @@
 2. In your javascript code, add the two functions from the js_code_to_add.js file.
   * I presume you already know about wrapping your javascript code in a DOMContentLoaded event, such as:
 
-```document.addEventListener('DOMContentLoaded',() => {
-    // all your code goes here
-    // This same concept in the jQuery world is:
-    //    $(document).ready(function (){ //all your code goes in here });
-    //    or just: $(function(){ //all your code goes in here });
-});```
+```
+    document.addEventListener('DOMContentLoaded',() => {
+        // all your code goes inside here
+        // This same concept in the jQuery world is:
+        //    $(document).ready(function (){ //all your code goes in here });
+        //    or just: $(function(){ //all your code goes in here });
+    });
+```
 
   * Also, inside the above DOMContentLoaded/document.ready block, you need to initialize the tooltip code on the element you want the tooltip used on:
 
-    ```document.querySelector('#myTestSpan').addEventListener('mouseover', createMyTooltip);
-    document.querySelector('#myTestSpan').addEventListener('mouseout', cancelMyTooltip);```
+```
+     document.querySelector('#myTestSpan').addEventListener('mouseover', createMyTooltip);
+     document.querySelector('#myTestSpan').addEventListener('mouseout', cancelMyTooltip);
+```
 
 3. High-five the coffee machine.
