@@ -2,6 +2,10 @@
 
 https://www.w3schools.com/cssref/css_colors.asp
 
+Here is the above page with this Tampermonkey userscript loaded:
+
+![W3Schools Colors page with TM script](https://i.stack.imgur.com/557c4.gif)
+
 The original page displays three color blocks on each line, and a maximum of 21 per page (only 12 on the first page).
 
 This script removes some page elements (such as the right-sidebar etc) and adds the following buttons to top-left of page:
